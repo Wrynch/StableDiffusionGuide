@@ -4,13 +4,13 @@
 ## 🦹🏼‍♂️ Analog Diffusion
 ![example](https://huggingface.co/wavymulder/Analog-Diffusion/resolve/main/images/page1.jpg)
 
-- In your prompt, use the activation token: 
+- ***In your prompt, use the activation token:*** 
 
 ```bash
   analog style
 ```
 
-- Example Prompt:
+- ***Example Prompt:***
 
 ```bash
   analog style portrait of Al Pacino in Scarface, 
@@ -25,25 +25,27 @@
   realistic shaded, meha armor
 ```
 
-- Negative prompts:
+- ***Negative prompts:***
 
 ```bash
 blur, haze, naked, suit, smile, render, drawing, frame, (ugly), 
 (((deformed))), blurry, bad anatomy, disfigured, mutation, mutated, watermark, text
 ```
-- Settings:
-| Parameter | Value    |
-| :-------- | :------- | 
-| `Steps`      | `40 (Max)` | 
-| `Method`      | `EULER A` | 
-| `Res`      | `768 x 1056` | 
-| `Denoise`      | `0,4` | 
-| `CFG`      | `7` | 
+- ***Settings:***
 
-- Links
+| Parameter         | Value      |
+| ----------------- | ---------- |
+| Steps | 40 (Max) |
+| Method | EULER A |
+| Res | 768 x 1056 |
+| Denoise | 0,4 |
+| Denoise | 7 |
 
-[Model](https://huggingface.co/wavymulder/Analog-Diffusion)
-[Prompt Examples](https://huggingface.co/wavymulder/Analog-Diffusion/resolve/main/parameters_used_examples.txt)
+
+***Links***
+
+- [Model](https://huggingface.co/wavymulder/Analog-Diffusion)
+- [Prompt Examples](https://huggingface.co/wavymulder/Analog-Diffusion/resolve/main/parameters_used_examples.txt)
 
 
 
@@ -54,13 +56,13 @@ blur, haze, naked, suit, smile, render, drawing, frame, (ugly),
 ## 👩🏽‍🦰 Nitro Diffusion
 ![example](https://huggingface.co/nitrosocke/Nitro-Diffusion/resolve/main/nitro-diff-samples-02.jpg)
 
-- In your prompt, use the activation token: 
+- ***In your prompt, use the activation token:*** 
 
 ```bash
   archer style, arcane style or modern disney style 
 ```
 
-- Example Prompt:
+- ***Example Prompt:***
 
 ```bash
     arcane archer modern disney gal gadot 
@@ -69,71 +71,73 @@ blur, haze, naked, suit, smile, render, drawing, frame, (ugly),
   (audi TT car) arcane modern disney style archer 
 ```
 
-- Negative prompts:
+- ***Negative prompts:***
 
 ```bash
 blur, haze, naked, suit, smile, render, drawing, frame, (ugly), 
 (((deformed))), blurry, bad anatomy, disfigured, mutation, mutated, watermark, text
 ```
-- Settings:
-| Parameter | Value    |
-| :-------- | :------- | 
-| `Steps`      | `30` | 
-| `Method`      | `EULER A` | 
-| `Res`      | `768 x 1056` | 
-| `Denoise`      | `0,4` | 
-| `CFG`      | `7` | 
+- ***Settings:***
 
-- Links
+| Parameter         | Value      |
+| ----------------- | ---------- |
+| Steps | 30 |
+| Method | EULER A |
+| Res | 768 x 1056 |
+| Denoise | 0,4 |
+| Denoise | 7 |
 
-[Model](https://huggingface.co/nitrosocke/Nitro-Diffusion)
+***Links***
+
+- [Model](https://huggingface.co/nitrosocke/Nitro-Diffusion)
 
 ## 🥏 Arcane Diffusion
 ![example](https://huggingface.co/nitrosocke/Arcane-Diffusion/resolve/main/arcane-v3-samples-01.jpg)
 
-- In your prompt, use the activation token: 
+- ***In your prompt, use the activation token:*** 
 
 ```bash
   arcane style  
 ```
 
-- Example Prompt:
+- ***Example Prompt:***
 
 ```bash
     arcane style shadow warrior
 ```
 
-- Negative prompts:
+- ***Negative prompts:***
 
 ```bash
 blur, haze, naked, suit, smile, render, drawing, frame, (ugly), 
 (((deformed))), blurry, bad anatomy, disfigured, mutation, mutated, watermark, text
 ```
-- Settings:
-| Parameter | Value    |
-| :-------- | :------- | 
-| `Steps`      | `30` | 
-| `Method`      | `EULER A` | 
-| `Res`      | `768 x 1056` | 
-| `Denoise`      | `0,4` | 
-| `CFG`      | `7` | 
+- ***Settings:***
 
-- Links
+| Parameter         | Value      |
+| ----------------- | ---------- |
+| Steps | 30 |
+| Method | EULER A |
+| Res | 768 x 1056 |
+| Denoise | 0,4 |
+| Denoise | 7 |
 
-[Model](https://huggingface.co/nitrosocke/Arcane-Diffusion)
+***Links***
+
+- [Model](https://huggingface.co/nitrosocke/Arcane-Diffusion)
 
 
 ## 🏞 Redshift Diffusion [Best for Cars and Landscapes]
 ![example](https://huggingface.co/nitrosocke/redshift-diffusion/resolve/main/images/redshift-diffusion-samples-01s.jpg)
 ![example2](https://huggingface.co/nitrosocke/redshift-diffusion/resolve/main/images/redshift-diffusion-samples-02s.jpg)
 
-- In your prompt, use the activation token: 
+- ***In your prompt, use the activation token:*** 
 
 ```bash
   redshift style   
 ```
 
-- Example Prompt:
+- ***Example Prompt:***
 
 ```bash
     (redshift style) robert downey jr as ironman
@@ -142,23 +146,24 @@ blur, haze, naked, suit, smile, render, drawing, frame, (ugly),
     redshift style Ford Mustang
 ```
 
-- Negative prompts:
+- ***Negative prompts:***
 
 ```bash
 blur, haze, glasses, helmet 
 ```
-- Settings:
-| Parameter | Value    |
-| :-------- | :------- | 
-| `Steps`      | `20` | 
-| `Method`      | `DPM2 Karras` | 
-| `Res`      | `768 x 1056` | 
-| `Denoise`      | `0,4` | 
-| `CFG`      | `7` | 
+- ***Settings:***
 
-- Links
+| Parameter         | Value      |
+| ----------------- | ---------- |
+| Steps | 20 |
+| Method | DPM2 Karras |
+| Res | 768 x 1056 |
+| Denoise | 0,4 |
+| Denoise | 7 |
 
-[Model](https://huggingface.co/nitrosocke/redshift-diffusion)
+***Links***
+
+- [Model](https://huggingface.co/nitrosocke/redshift-diffusion)
 # 📑 Utils & Misc
 
 - [Deepl](https://www.deepl.com/es/translator)
