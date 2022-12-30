@@ -166,6 +166,7 @@ blur, haze, glasses, helmet
 - [Model](https://huggingface.co/nitrosocke/redshift-diffusion)
 # 📑 Utils & Misc
 
+- [Stable Diffusion Instalation](https://www.youtube.com/watch?v=onmqbI5XPH8)
 - [Deepl](https://www.deepl.com/es/translator)
 - [Best Prompts List](https://mpost.io/best-100-stable-diffusion-prompts-the-most-beautiful-ai-text-to-image-prompts/)
 - [Prompts by Model](https://prompthero.com/stable-diffusion-prompts)
