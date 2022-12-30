@@ -171,3 +171,15 @@ blur, haze, glasses, helmet
 - [Prompts by Model](https://prompthero.com/stable-diffusion-prompts)
 - [Prompts Examples](https://strikingloo.github.io/stable-diffusion-vs-dalle-2)
 
+- ***Prompt punctuation Cheat sheet:***
+
+```bash
+ (word) - increase attention to word by a factor of 1.1
+ ((word)) - increase attention to word by a factor of 1.21 (= 1.1 * 1.1)
+ [word] - decrease attention to word by a factor of 1.1
+ (word:1.5) - increase attention to word by a factor of 1.5
+ (word:0.25) - decrease attention to word by a factor of 4 (= 1 / 0.25)
+ \(word\) - use literal () characters in prompt
+```
+
+
