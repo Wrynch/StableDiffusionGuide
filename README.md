@@ -48,11 +48,6 @@ blur, haze, naked, suit, smile, render, drawing, frame, (ugly),
 - [Prompt Examples](https://huggingface.co/wavymulder/Analog-Diffusion/resolve/main/parameters_used_examples.txt)
 
 
-
-
-
-
-
 ## 👩🏽‍🦰 Nitro Diffusion
 ![example](https://huggingface.co/nitrosocke/Nitro-Diffusion/resolve/main/nitro-diff-samples-02.jpg)
 
