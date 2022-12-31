@@ -127,7 +127,7 @@ blur, haze, naked, suit, smile, render, drawing, frame, (ugly),
 - [Model](https://huggingface.co/nitrosocke/Arcane-Diffusion)
 
 
-## 🏞 Redshift Diffusion [Best for Cars and Landscapes]
+## 🏞 Redshift Diffusion
 ![example](https://huggingface.co/nitrosocke/redshift-diffusion/resolve/main/images/redshift-diffusion-samples-01s.jpg)
 ![example2](https://huggingface.co/nitrosocke/redshift-diffusion/resolve/main/images/redshift-diffusion-samples-02s.jpg)
 
