@@ -159,6 +159,45 @@ blur, haze, glasses, helmet
 ***Links***
 
 - [Model](https://huggingface.co/nitrosocke/redshift-diffusion)
+
+## 👩🏻‍🦱 Portrait+
+
+![example](https://huggingface.co/wavymulder/portraitplus/resolve/main/imgs/page1.jpg)
+
+- In your prompt, use the activation token: 
+
+```bash
+  portrait+ style  
+```
+
+- Example Prompt:
+
+```bash
+    portrait+ style photograph of Emma Watson as Hermione Granger
+```
+
+- Negative prompts:
+
+```bash
+blur, haze
+```
+- Settings:
+
+| Parameter         | Value      |
+| ----------------- | ---------- |
+| Steps | 20 |
+| Method | EULER A |
+| Res | 768 x 1056 |
+| Denoise | 0,3 |
+| Denoise | 7 |
+| Seed | 2989175071 |
+
+Links
+
+- [Model](https://huggingface.co/wavymulder/portraitplus)
+- [Prompt Examples](https://huggingface.co/wavymulder/portraitplus/resolve/main/parameters_for_samples.txt)
+
+
 # 📑 Utils & Misc
 
 - [Stable Diffusion Instalation](https://www.youtube.com/watch?v=onmqbI5XPH8)
