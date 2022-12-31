@@ -39,7 +39,7 @@ blur, haze, naked, suit, smile, render, drawing, frame, (ugly),
 | Method | EULER A |
 | Res | 768 x 1056 |
 | Denoise | 0,4 |
-| Denoise | 7 |
+| CFG  | 7 |
 
 
 ***Links***
@@ -48,43 +48,47 @@ blur, haze, naked, suit, smile, render, drawing, frame, (ugly),
 - [Prompt Examples](https://huggingface.co/wavymulder/Analog-Diffusion/resolve/main/parameters_used_examples.txt)
 
 
-## 👩🏽‍🦰 Nitro Diffusion
-![example](https://huggingface.co/nitrosocke/Nitro-Diffusion/resolve/main/nitro-diff-samples-02.jpg)
+
+
+
+
+
+## 👩🏻‍🦱 Portrait+
+
+![example](https://huggingface.co/wavymulder/portraitplus/resolve/main/imgs/page1.jpg)
 
 - ***In your prompt, use the activation token:*** 
 
 ```bash
-  archer style, arcane style or modern disney style 
+  portrait+ style  
 ```
 
 - ***Example Prompt:***
 
 ```bash
-    arcane archer modern disney gal gadot 
-```
-```bash
-  (audi TT car) arcane modern disney style archer 
+  portrait+ style photograph of Emma Watson as Hermione Granger
 ```
 
 - ***Negative prompts:***
 
 ```bash
-blur, haze, naked, suit, smile, render, drawing, frame, (ugly), 
-(((deformed))), blurry, bad anatomy, disfigured, mutation, mutated, watermark, text
+blur, haze
 ```
 - ***Settings:***
 
 | Parameter         | Value      |
 | ----------------- | ---------- |
-| Steps | 30 |
-| Method | EULER A |
+| Steps | 20 |
+| Method | DPM2 Karras |
 | Res | 768 x 1056 |
-| Denoise | 0,4 |
-| Denoise | 7 |
+| Denoise | 0,3 |
+| CFG  | 7 |
+| Seed | 2989175071 |
 
 ***Links***
 
-- [Model](https://huggingface.co/nitrosocke/Nitro-Diffusion)
+- [Model](https://huggingface.co/wavymulder/portraitplus)
+- [Prompt Examples](https://huggingface.co/wavymulder/portraitplus/resolve/main/parameters_for_samples.txt)
 
 ## 🥏 Arcane Diffusion
 ![example](https://huggingface.co/nitrosocke/Arcane-Diffusion/resolve/main/arcane-v3-samples-01.jpg)
@@ -115,12 +119,50 @@ blur, haze, naked, suit, smile, render, drawing, frame, (ugly),
 | Method | EULER A |
 | Res | 768 x 1056 |
 | Denoise | 0,4 |
-| Denoise | 7 |
+| CFG  | 7 |
 
 ***Links***
 
 - [Model](https://huggingface.co/nitrosocke/Arcane-Diffusion)
 
+
+## 👩🏽‍🦰 Nitro Diffusion
+![example](https://huggingface.co/nitrosocke/Nitro-Diffusion/resolve/main/nitro-diff-samples-02.jpg)
+
+- ***In your prompt, use the activation token:*** 
+
+```bash
+  archer style, arcane style or modern disney style 
+```
+
+- ***Example Prompt:***
+
+```bash
+  arcane archer modern disney gal gadot 
+```
+```bash
+  (audi TT car) arcane modern disney style archer 
+```
+
+- ***Negative prompts:***
+
+```bash
+blur, haze, naked, suit, smile, render, drawing, frame, (ugly), 
+(((deformed))), blurry, bad anatomy, disfigured, mutation, mutated, watermark, text
+```
+- ***Settings:***
+
+| Parameter         | Value      |
+| ----------------- | ---------- |
+| Steps | 30 |
+| Method | EULER A |
+| Res | 768 x 1056 |
+| Denoise | 0,4 |
+| CFG  | 7 |
+
+***Links***
+
+- [Model](https://huggingface.co/nitrosocke/Nitro-Diffusion)
 
 ## 🏞 Redshift Diffusion
 ![example](https://huggingface.co/nitrosocke/redshift-diffusion/resolve/main/images/redshift-diffusion-samples-01s.jpg)
@@ -135,16 +177,16 @@ blur, haze, naked, suit, smile, render, drawing, frame, (ugly),
 - ***Example Prompt:***
 
 ```bash
-    (redshift style) robert downey jr as ironman
+  (redshift style) robert downey jr as ironman
 ```
 ```bash
-    redshift style Ford Mustang
+  redshift style Ford Mustang
 ```
 
 - ***Negative prompts:***
 
 ```bash
-blur, haze, glasses, helmet 
+  blur, haze, glasses, helmet 
 ```
 - ***Settings:***
 
@@ -154,49 +196,44 @@ blur, haze, glasses, helmet
 | Method | DPM2 Karras |
 | Res | 768 x 1056 |
 | Denoise | 0,4 |
-| Denoise | 7 |
+| CFG  | 7 |
 
 ***Links***
 
 - [Model](https://huggingface.co/nitrosocke/redshift-diffusion)
+## 🌄 VinageStyle
+![example](https://huggingface.co/Norod78/SD15-VinageStyle/resolve/main/sample_images/SD15-VintageStyle-Thumbnail.jpg)
 
-## 👩🏻‍🦱 Portrait+
-
-![example](https://huggingface.co/wavymulder/portraitplus/resolve/main/imgs/page1.jpg)
-
-- In your prompt, use the activation token: 
+- ***In your prompt, use the activation token:*** 
 
 ```bash
-  portrait+ style  
+  Vintage, Vintage style, Vintage face, Pulp cover
 ```
 
-- Example Prompt:
+- ***Example Prompt:***
 
 ```bash
-    portrait+ style photograph of Emma Watson as Hermione Granger
+    A photo of Gal Gadot as wonderwoman, Vintage style, very detailed, clean, high quality, sharp image
 ```
 
-- Negative prompts:
+- ***Negative prompts:***
 
 ```bash
-blur, haze
+  grainy, blurry, text, watermark, inconsistent, smudged , haze
 ```
-- Settings:
+- ***Settings:***
 
 | Parameter         | Value      |
 | ----------------- | ---------- |
-| Steps | 20 |
-| Method | EULER A |
+| Steps | 40 |
+| Method | DPM++ 2M Karras |
 | Res | 768 x 1056 |
-| Denoise | 0,3 |
-| Denoise | 7 |
-| Seed | 2989175071 |
+| Denoise | 0,4 |
+| CFG  | 7.5 |
 
-Links
+***Links***
 
-- [Model](https://huggingface.co/wavymulder/portraitplus)
-- [Prompt Examples](https://huggingface.co/wavymulder/portraitplus/resolve/main/parameters_for_samples.txt)
-
+- [Model](https://huggingface.co/nitrosocke/redshift-diffusion)
 
 # 📑 Utils & Misc
 
@@ -216,5 +253,4 @@ Links
  (word:0.25) - decrease attention to word by a factor of 4 (= 1 / 0.25)
  \(word\) - use literal () characters in prompt
 ```
-
 
