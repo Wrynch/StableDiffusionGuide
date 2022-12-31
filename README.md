@@ -103,7 +103,7 @@ blur, haze, naked, suit, smile, render, drawing, frame, (ugly),
 - ***Example Prompt:***
 
 ```bash
-    arcane style shadow warrior
+  arcane style shadow warrior
 ```
 
 - ***Negative prompts:***
