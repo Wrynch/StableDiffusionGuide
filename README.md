@@ -79,7 +79,7 @@ blur, haze
 | Parameter         | Value      |
 | ----------------- | ---------- |
 | Steps | 20 |
-| Method | DPM2 Karras |
+| Method | EULER A |
 | Res | 768 x 1056 |
 | Denoise | 0,3 |
 | CFG  | 7 |
