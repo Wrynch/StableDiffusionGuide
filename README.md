@@ -201,6 +201,7 @@ blur, haze, naked, suit, smile, render, drawing, frame, (ugly),
 ***Links***
 
 - [Model](https://huggingface.co/nitrosocke/redshift-diffusion)
+- 
 ## 🌄 VinageStyle
 ![example](https://huggingface.co/Norod78/SD15-VinageStyle/resolve/main/sample_images/SD15-VintageStyle-Thumbnail.jpg)
 
@@ -227,13 +228,13 @@ blur, haze, naked, suit, smile, render, drawing, frame, (ugly),
 | ----------------- | ---------- |
 | Steps | 40 |
 | Method | DPM++ 2M Karras |
-| Res | 768 x 1056 |
+| Res | 512 x 512 |
 | Denoise | 0,4 |
 | CFG  | 7.5 |
 
 ***Links***
 
-- [Model](https://huggingface.co/nitrosocke/redshift-diffusion)
+- [Model](https://huggingface.co/Norod78/SD15-VinageStyle)
 
 # 📑 Utils & Misc
 
