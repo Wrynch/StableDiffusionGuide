@@ -72,7 +72,7 @@ blur, haze, naked, suit, smile, render, drawing, frame, (ugly),
 - ***Negative prompts:***
 
 ```bash
-blur, haze
+blur, haze, blender, illustration, hdr
 ```
 - ***Settings:***
 
