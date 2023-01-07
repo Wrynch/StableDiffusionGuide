@@ -268,7 +268,7 @@ blur, haze, naked, suit, smile, render, drawing, frame, (ugly),
 - [Model](https://civitai.com/models/1116/rpg)
 
 ## 🩻 Elden Ring Style
-![example](https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/32c3c2df-0dbf-4a4c-86d4-dcac5e9e2300/width=400)
+![example](https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0f7111d0-add8-45b2-c3ee-aed2a8ebea00/width=400)
 
 - ***In your prompt, use the activation token:*** 
 
