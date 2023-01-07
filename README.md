@@ -236,7 +236,6 @@ blur, haze, naked, suit, smile, render, drawing, frame, (ugly),
 
 - [Model](https://huggingface.co/Norod78/SD15-VinageStyle)
 
-# ⚡️ Stable Diffusion Model Guide ⚡️
 
 ## ⚔️ RPG
 ![example](https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/32c3c2df-0dbf-4a4c-86d4-dcac5e9e2300/width=400)
