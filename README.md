@@ -280,6 +280,34 @@ blur, haze, naked, suit, smile, render, drawing, frame, (ugly),
 
 - [Model](https://civitai.com/models/5/elden-ring-style)
 
+## 📽 Cinematic Diffusion
+![example](https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fd06d71d-ef2a-4f87-0b34-a6b9146def00/width=400)
+
+- ***In your prompt, use the activation token:*** 
+
+```bash
+  syberart
+```
+
+- ***Negative prompts:***
+
+```bash
+blur, haze, naked, suit, smile, render, drawing, frame, (ugly), 
+(((deformed))), blurry, bad anatomy, disfigured, mutation, mutated, watermark, text
+```
+
+- ***Settings:***
+- 
+```bash
+This model performs best in the 16:9 aspect ratio, although it can also produce good results in a square format. (You can use 906x512; if you have duplicate problems you can try 968x512, 872x512, 856x512, 784x512). 
+```
+
+
+***Links***
+
+- [Model](https://civitai.com/models/3091/cinematic-diffusion)
+
+
 # 📑 Utils & Misc
 
 - [Stable Diffusion Instalation](https://www.youtube.com/watch?v=onmqbI5XPH8)
