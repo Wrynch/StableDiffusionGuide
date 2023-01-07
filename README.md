@@ -236,6 +236,39 @@ blur, haze, naked, suit, smile, render, drawing, frame, (ugly),
 
 - [Model](https://huggingface.co/Norod78/SD15-VinageStyle)
 
+# ⚡️ Stable Diffusion Model Guide ⚡️
+
+## ⚔️ RPG
+![example](https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/32c3c2df-0dbf-4a4c-86d4-dcac5e9e2300/width=400)
+
+- ***Example Prompt:***
+
+```bash
+close-up head, facing camera, realistic digital painting portrait of a gothic female blood elf, (curly hair:1.1), (Dungeon and Dragon:1.3), magical dark and red universe, magic cloth armor with red and yellow engrave in, intricate details, (abstract background:1.2), (light particle:1.1), (very detailed skin:1.2), (game concept:1.3), (elden, ring style:1.3), (arcane style:0.8), (depth of field:1.3), global illumination, art by hoang lap and fuji choko and artgerm, and greg rutkowski and viktoria gavrilenko
+```
+
+- ***Negative prompts:***
+
+```bash
+blur, haze, naked, suit, smile, render, drawing, frame, (ugly), 
+(((deformed))), blurry, bad anatomy, disfigured, mutation, mutated, watermark, text
+```
+- ***Settings:***
+
+| Parameter         | Value      |
+| ----------------- | ---------- |
+| Steps | 75 |
+| Method | DPM++ 2S a Karras |
+| Res | 768 x 1056 |
+| Denoise | 0,4 |
+| CFG  | 5.5 |
+
+
+***Links***
+
+- [Model](https://civitai.com/models/1116/rpg)
+
+
 # 📑 Utils & Misc
 
 - [Stable Diffusion Instalation](https://www.youtube.com/watch?v=onmqbI5XPH8)
