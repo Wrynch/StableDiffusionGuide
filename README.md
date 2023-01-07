@@ -273,7 +273,7 @@ blur, haze, naked, suit, smile, render, drawing, frame, (ugly),
 - ***In your prompt, use the activation token:*** 
 
 ```bash
-  Vintage, Vintage style, Vintage face, Pulp cover
+  elden ring style
 ```
 
 ***Links***
