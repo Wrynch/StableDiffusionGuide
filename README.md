@@ -297,7 +297,6 @@ blur, haze, naked, suit, smile, render, drawing, frame, (ugly),
 ```
 
 - ***Settings:***
-- 
 ```bash
 This model performs best in the 16:9 aspect ratio, although it can also produce good results in a square format. (You can use 906x512; if you have duplicate problems you can try 968x512, 872x512, 856x512, 784x512). 
 ```
